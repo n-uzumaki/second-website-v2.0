@@ -1,0 +1,204 @@
+/*********** HTML TAGS ***********/
+body {
+    text-align: center;
+    margin: 0;
+    line-height: 2;
+    color: #40514e;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+hr {
+    color: #eaf6f6;
+    border-style: dotted;
+    border-top: 0;
+    border-width: 7px;
+    width: 7%;
+}
+
+h3 {
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #11999e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+/*********** CSS CLASS SELECTORS **********/
+
+/***** Top Container Selectors *****/
+
+.top-container {
+    position: relative;
+    background-color: #eaf6f6;
+    padding: 100px;
+    padding-bottom: 0;
+}
+
+.top-cloud {
+    width: 150px;
+   position: absolute;
+   right: 400px;
+   top: 50px;
+}
+
+.bottom-cloud {
+    width: 150px;
+    position: absolute;
+    left: 400px;
+}
+
+.mountain {
+    width: 1000px;
+    padding: 200px;
+    padding-bottom: 0;
+}
+
+/***** Middle Container Selectors *****/
+
+.profile-pic {
+    width: 250px;
+    margin-top: 50px;
+}
+
+.first-paragraph {
+    width: 800px;
+    margin: 0 auto 0;
+    padding-bottom: 50px;
+}
+
+.chemist {
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.skill-row {
+    width: 800px;
+    margin: 0 auto 0;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.ice-cream {
+    width: 200px;
+    float: right;
+   margin-left: 50px;
+}
+
+.fourth-paragraph {
+    width: 800px;
+    margin: 0 auto 0;
+    padding-bottom: 50px;
+}
+
+.contact-me {
+    margin: 50px;
+}
+
+.btn {
+    color: #11999E;
+    
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+/***** Bottom Container Selectors *****/
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px;
+}
+
+.fifth-paragraph {
+    color: #eaf6f6;
+}
+
+.footer-link {
+    padding: 50px;
+    text-decoration: none;
+}
+
+.copyright-text {
+    text-decoration: underline;
+}
+
+.lang {
+    width: 800px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.html-lang {
+    display: inline-block;
+    padding: 0 50px 0;
+}
+
+.css-lang {
+    display: inline-block;
+    padding: 0 50px 0;
+}
+
+.bootstrap-lang {
+    padding: 0 50px 0px;
+   display: inline-block;
+}
+
+/*********** CSS ID SELECTORS **********/
+
+#html-lang {
+    width: 150px;
+}
+
+#css-lang {
+    width: 150px;
+}
+
+#bootstrap-lang {
+    width: 150px;
+}
